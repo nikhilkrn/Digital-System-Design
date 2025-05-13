@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov  9 15:23:05 2024
+# Process ID: 25776
+# Current directory: D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.runs/impl_1
+# Command line: vivado.exe -log atm_machine.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source atm_machine.tcl -notrace
+# Log file: D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.runs/impl_1/atm_machine.vdi
+# Journal file: D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.runs/impl_1\vivado.jou
+# Running On: DESKTOP-K2CAF5A, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+source atm_machine.tcl -notrace

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/nor_1/nor_1.srcs/sources_1/new/nor_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/nor_1/nor_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/nor_1/nor_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

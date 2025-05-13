@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../LAB Mid Exam.srcs/sources_1/new/Ques6a.v" \
+"../../../../LAB Mid Exam.srcs/sim_1/new/Ques6a_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Tue Nov 12 17:05:29 2024
+# Process ID: 1872
+# Current directory: D:/DSD_lab/IPBlocks
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11404 D:\DSD_lab\IPBlocks\IPBlocks.xpr
+# Log file: D:/DSD_lab/IPBlocks/vivado.log
+# Journal file: D:/DSD_lab/IPBlocks\vivado.jou
+# Running On: DESKTOP-K2CAF5A, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/DSD_lab/IPBlocks/IPBlocks.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/bd/design_1/design_1.bd}
+launch_simulation
+source design_1_wrapper.tcl
+add_force {/design_1_wrapper/reset_0} -radix bin {0 0ns}
+add_force {/design_1_wrapper/clk_in1_0} -radix bin {1 0ns} {0 500000ps} -repeat_every 1000000ps
+run 10 us
+open_bd_design {D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/bd/design_1/design_1.bd}
+add_force {/design_1_wrapper/UP_0} -radix bin {1 0ns}
+run all
+run 10 us
+add_force {/design_1_wrapper/clk_in1_0} -radix bin {1 0ns} {0 500000ps} -repeat_every 1000000ps
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+open_bd_design {D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/bd/design_1/design_1.bd}
+set_property location {3 716 -24} [get_bd_cells c_counter_binary_0]
+set_property location {3 699 41} [get_bd_cells c_counter_binary_0]
+close_sim

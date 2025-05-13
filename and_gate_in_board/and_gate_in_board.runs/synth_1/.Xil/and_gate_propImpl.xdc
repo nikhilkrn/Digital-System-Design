@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:D:/DSD_lab/and_gate_in_board/and_gate_in_board.srcs/constrs_1/new/andGate.xdc rfile:../../../and_gate_in_board.srcs/constrs_1/new/andGate.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K1 [get_ports a]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K2 [get_ports b]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN A4 [get_ports c]

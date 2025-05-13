@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/DSD_lab/IPBlocks/IPBlocks.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,1729926906,verilog,,,,design_1_wrapper,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd,1729926906,vhdl,,,,design_1_c_counter_binary_0_0,,,,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_10_1_0_0/sim/design_1_clk_10_1_0_0.v,1729926906,verilog,,D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/sim/design_1.v,,design_1_clk_10_1_0_0,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v,1729926906,verilog,,D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_10_1_0_0/sim/design_1_clk_10_1_0_0.v,,design_1_clk_wiz_0_0,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v,1729926906,verilog,,D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v,,design_1_clk_wiz_0_0_clk_wiz,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/sim/design_1.v,1729926906,verilog,,D:/DSD_lab/IPBlocks/IPBlocks.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v,,design_1,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/new/counter.v,1729926566,verilog,,D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v,,clk_10_1,,,../../../../IPBlocks.gen/sources_1/bd/design_1/ipshared/7698,,,,,

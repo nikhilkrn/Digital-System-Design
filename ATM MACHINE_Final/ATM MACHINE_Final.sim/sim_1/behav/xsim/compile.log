@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/atm_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module card_validation
+INFO: [VRFC 10-311] analyzing module user_selection
+INFO: [VRFC 10-311] analyzing module balance_display
+INFO: [VRFC 10-311] analyzing module sevensegment
+INFO: [VRFC 10-311] analyzing module deposit
+INFO: [VRFC 10-311] analyzing module withdraw
+INFO: [VRFC 10-311] analyzing module atm_machine
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/balance_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module balance_display
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'balance_display' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/balance_display.v:2]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/card_validation.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module card_validation
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'card_validation' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/card_validation.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/deposit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module deposit
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'deposit' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/deposit.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/sevensegment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sevensegment
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'sevensegment' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/sevensegment.v:2]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/user_selection.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module user_selection
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'user_selection' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/user_selection.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/withdraw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module withdraw
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'withdraw' [D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sources_1/new/withdraw.v:23]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/ATM MACHINE_Final/ATM MACHINE_Final.srcs/sim_1/new/atm_machine_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module atm_machine_tb

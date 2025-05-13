@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/project_1/project_1.srcs/sources_1/new/q11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module q11
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/project_1/project_1.srcs/sources_1/new/q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module full_adder_nor
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/project_1/project_1.srcs/sim_1/new/testbench_q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_q2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/project_1/project_1.srcs/sim_1/new/testbench_q11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench_q11
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/project_1/project_1.srcs/sim_1/new/test_q11.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test_q11

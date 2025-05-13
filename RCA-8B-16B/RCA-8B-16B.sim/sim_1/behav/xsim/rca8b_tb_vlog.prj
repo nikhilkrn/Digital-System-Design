@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../RCA-8B-16B.srcs/sources_1/new/fulladder.v" \
+"../../../../RCA-8B-16B.srcs/sources_1/new/rca4b.v" \
+"../../../../RCA-8B-16B.srcs/sources_1/new/rca8bit.v" \
+"../../../../RCA-8B-16B.srcs/sim_1/new/rca8b_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

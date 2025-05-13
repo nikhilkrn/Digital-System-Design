@@ -1,0 +1,17 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_10_1
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'clk_1Hz' is not allowed [D:/DSD_lab/IPBlocks/IPBlocks.srcs/sources_1/new/counter.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_wiz_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_clk_10_1_0_0/sim/design_1_clk_10_1_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_clk_10_1_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/sim/design_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/IPBlocks/IPBlocks.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/DSD_lab/IPBlocks/IPBlocks.ip_user_files/bd/design_1/ip/design_1_c_counter_binary_0_0/sim/design_1_c_counter_binary_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_c_counter_binary_0_0'

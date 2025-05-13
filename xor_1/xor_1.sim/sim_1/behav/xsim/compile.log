@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/xor_1/xor_1.srcs/sources_1/new/xor_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/xor_1/xor_1.srcs/sim_1/new/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

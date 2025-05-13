@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/FlipFlop/async_t_flipflop/async_t_flipflop.srcs/sources_1/new/async_t_flipflop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_t_flipflop
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/FlipFlop/async_t_flipflop/async_t_flipflop.srcs/sim_1/new/async_t_flipflop_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_t_flipflop_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/DSD_lab/FlipFlop/async_t_flipflop/async_t_flipflop.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

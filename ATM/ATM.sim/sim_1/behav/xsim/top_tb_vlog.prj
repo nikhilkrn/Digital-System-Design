@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ATM.srcs/sources_1/new/checkbalance.v" \
+"../../../../ATM.srcs/sources_1/new/deposit.v" \
+"../../../../ATM.srcs/sources_1/new/top.v" \
+"../../../../ATM.srcs/sources_1/new/userdatastorage.v" \
+"../../../../ATM.srcs/sources_1/new/uservalidation.v" \
+"../../../../ATM.srcs/sources_1/new/withdraw.v" \
+"../../../../ATM.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

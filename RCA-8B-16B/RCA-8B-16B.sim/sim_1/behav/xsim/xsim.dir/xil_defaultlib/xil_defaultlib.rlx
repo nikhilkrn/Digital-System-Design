@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sim_1/new/rca8b_tb.v,1727582276,verilog,,,,rca8b_tb,,,,,,,,
+D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sources_1/new/fulladder.v,1727577523,verilog,,D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sources_1/new/rca4b.v,,Fulladder,,,,,,,,
+D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sources_1/new/rca4b.v,1727577591,verilog,,D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sources_1/new/rca8bit.v,,rca_4bit,,,,,,,,
+D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sources_1/new/rca8bit.v,1727582387,verilog,,D:/DSD_lab/RCA-8B-16B/RCA-8B-16B.srcs/sim_1/new/rca8b_tb.v,,rca8bit,,,,,,,,

@@ -1,0 +1,197 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC7697EA72CD320FA",
+      "device": "xc7s50csga324-1",
+      "gen_directory": "../../../../Counter.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2022.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "clk_10_1_0": "",
+      "c_counter_binary_0": ""
+    },
+    "ports": {
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk_in1_1": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_in1_1",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "Q_0": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum",
+              "{} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool",
+              "minimum {} maximum {}} value false}}}} DATA_WIDTH 16",
+              "}"
+            ],
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "UP_0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "xci_path": "ip\\design_1_clk_wiz_0_0\\design_1_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "USE_LOCKED": {
+            "value": "false"
+          }
+        }
+      },
+      "clk_10_1_0": {
+        "vlnv": "xilinx.com:module_ref:clk_10_1:1.0",
+        "xci_name": "design_1_clk_10_1_0_0",
+        "xci_path": "ip\\design_1_clk_10_1_0_0\\design_1_clk_10_1_0_0.xci",
+        "inst_hier_path": "clk_10_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "clk_10_1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk_10MHz": {
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I",
+            "parameters": {
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "user_prop"
+              }
+            }
+          },
+          "clk_1Hz": {
+            "direction": "O"
+          }
+        }
+      },
+      "c_counter_binary_0": {
+        "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
+        "xci_name": "design_1_c_counter_binary_0_0",
+        "xci_path": "ip\\design_1_c_counter_binary_0_0\\design_1_c_counter_binary_0_0.xci",
+        "inst_hier_path": "c_counter_binary_0",
+        "parameters": {
+          "Count_Mode": {
+            "value": "UPDOWN"
+          },
+          "Restrict_Count": {
+            "value": "false"
+          }
+        }
+      }
+    },
+    "nets": {
+      "UP_0_1": {
+        "ports": [
+          "UP_0",
+          "c_counter_binary_0/UP"
+        ]
+      },
+      "c_counter_binary_0_Q": {
+        "ports": [
+          "c_counter_binary_0/Q",
+          "Q_0"
+        ]
+      },
+      "clk_10_1_0_clk_1Hz": {
+        "ports": [
+          "clk_10_1_0/clk_1Hz",
+          "c_counter_binary_0/CLK"
+        ]
+      },
+      "clk_in1_1_1": {
+        "ports": [
+          "clk_in1_1",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "clk_10_1_0/clk_10MHz"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "clk_wiz_0/reset",
+          "clk_10_1_0/reset"
+        ]
+      }
+    }
+  }
+}

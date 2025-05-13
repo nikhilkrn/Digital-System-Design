@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/atm_machine.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/balance_display.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/card_validation.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/deposit.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/sevensegment.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/user_selection.v" \
+"../../../../ATM MACHINE_Final.srcs/sources_1/new/withdraw.v" \
+"../../../../ATM MACHINE_Final.srcs/sim_1/new/atm_machine_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

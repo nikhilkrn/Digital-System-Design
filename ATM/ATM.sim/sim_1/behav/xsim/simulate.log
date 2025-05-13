@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Starting ATM Control Testbench...
+User validated successfully with card number: 01000
+Balance for card 01000 is 0000000111110100
+New Balance after deposit: 0000x00111xx0100
+Insufficient funds for withdrawal of 001
+ATM Control Testbench completed.
+$stop called at time : 60 ns : File "D:/DSD_lab/ATM/ATM.srcs/sim_1/new/top_tb.v" Line 94

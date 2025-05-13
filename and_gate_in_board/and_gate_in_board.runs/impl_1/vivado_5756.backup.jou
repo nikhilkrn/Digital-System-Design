@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Sep 28 10:54:44 2024
+# Process ID: 5756
+# Current directory: D:/DSD_lab/and_gate_in_board/and_gate_in_board.runs/impl_1
+# Command line: vivado.exe -log and_gate.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source and_gate.tcl -notrace
+# Log file: D:/DSD_lab/and_gate_in_board/and_gate_in_board.runs/impl_1/and_gate.vdi
+# Journal file: D:/DSD_lab/and_gate_in_board/and_gate_in_board.runs/impl_1\vivado.jou
+# Running On: DESKTOP-I6L5D8P, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+source and_gate.tcl -notrace

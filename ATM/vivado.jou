@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jan  2 19:40:13 2025
+# Process ID: 3092
+# Current directory: D:/DSD_lab/ATM
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25052 D:\DSD_lab\ATM\ATM.xpr
+# Log file: D:/DSD_lab/ATM/vivado.log
+# Journal file: D:/DSD_lab/ATM\vivado.jou
+# Running On: DESKTOP-K2CAF5A, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/DSD_lab/ATM/ATM.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project D:/DSD_lab/ATM_Project/ATM_Project.xpr
+update_compile_order -fileset sources_1
