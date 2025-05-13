@@ -1,45 +1,94 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
-           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
-           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# Digital System Design Lab
 
-These are common Git commands used in various situations:
+This repository contains Verilog implementations of various digital circuits and systems using Xilinx Vivado. The projects were developed as part of Digital System Design laboratory coursework.
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+## Repository Structure
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+The repository includes implementations of:
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+### Basic Logic Gates
+- AND Gate (`and_1/`)
+- OR Gate (`or_1/`)
+- NOT Gate (`not_1/`)
+- NAND Gate (`nand_1/`)
+- NOR Gate (`nor_1/`)
+- XOR Gate (`xor_1/`)
+- XNOR Gate (`xnor_1/`)
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+### Combinational Circuits
+- Half Adder (`halfAdder/`)
+- Full Adder (`fulladder/`)
+- Half Subtractor (`halfSubtactor/`)
+- 2-Bit Comparator (`2BitComparator/`)
+- 4-Bit Ripple Carry Adder (`4bitRCA_behav/`)
+- 8-Bit/16-Bit RCA (`RCA-8B-16B/`)
+- Carry Select Adder (`CarrySelectAdder/`)
+- Multiplexers
+  - 4-to-1 MUX (`mux_4to1/`)
+  - 16-to-1 MUX (`mux_16to1/`)
+- Decoder 2-to-4 (`Decoder_2to4/`)
+- Encoder (`encoder/`)
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+### Sequential Circuits
+- Flip Flops
+  - D Flip-Flop (`DFlipFlop/`)
+  - T Flip-Flop (`TFlipFlop/`)
+  - JK Flip-Flop (`JKflipFlop/`)
+- Counters
+  - Basic Counter (`Counter/`)
+  - Johnson Counter (`JhonsonCounter/`)
+  - Up/Down Counter (`updown/`)
+- Synchronous and Asynchronous Circuits
+  - Synchronous D FF (`synchro_D/`)
+  - Asynchronous D FF (`asynchro_d/`)
+  - Synchronous T FF (`synchro_t/`)
+  - Asynchronous T FF (`asynchro_t/`)
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+### Advanced Projects
+- ATM Machine Implementation
+  - Basic Version (`ATM/`)
+  - Final Version (`ATM_Final/`)
+  - Enhanced Version (`ATM MACHINE_Final/`)
+- 7-Segment Display (`7Segment/`)
+- IP Blocks Implementation (`IPBlocks/`)
+- Boolean Board (`BooleanBoard/`)
+
+## Getting Started
+
+### Prerequisites
+- Xilinx Vivado Design Suite (2022.2 or later)
+- Basic understanding of Digital Logic and Verilog HDL
+
+### Installation & Usage
+1. Clone the repository:
+```bash
+git clone https://github.com/nikhilkrn/Digital-System-Design.git
+```
+
+2. Open Vivado and navigate to the specific project directory
+3. Open the project file (`.xpr`)
+4. Run synthesis and implementation as needed
+
+## Project Structure
+Each project directory typically contains:
+- Source files (`.v`)
+- Testbench files
+- Constraint files (`.xdc`)
+- Project files (`.xpr`)
+- Simulation files
+
+## Contributing
+Feel free to create issues or submit pull requests for improvements.
+
+## License
+This project is licensed under MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- Digital System Design Lab course instructors and teaching assistants
+- Xilinx Vivado Documentation
+
+## Author
+- **Nikhil Karn**
+  - GitHub: [@nikhilkrn](https://github.com/nikhilkrn)
+  - LinkedIn: [Nikhil Karan](https://www.linkedin.com/in/nikhil-karn)
+  - Email: work@nikhillkarn.com.np
