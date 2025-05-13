@@ -90,5 +90,5 @@ This project is licensed under MIT License - see the LICENSE file for details.
 ## Author
 - **Nikhil Karn**
   - GitHub: [@nikhilkrn](https://github.com/nikhilkrn)
-  - LinkedIn: [Nikhil Karan](https://www.linkedin.com/in/nikhil-karn)
+  - LinkedIn: [Nikhil Karn](https://www.linkedin.com/in/nikhil-karn)
   - Email: work@nikhillkarn.com.np
